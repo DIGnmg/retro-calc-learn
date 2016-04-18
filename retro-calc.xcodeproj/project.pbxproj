@@ -12,6 +12,8 @@
 		AE044E7A1CC56B3400920B15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE044E781CC56B3400920B15 /* Main.storyboard */; };
 		AE044E7C1CC56B3400920B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE044E7B1CC56B3400920B15 /* Assets.xcassets */; };
 		AE044E7F1CC56B3400920B15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE044E7D1CC56B3400920B15 /* LaunchScreen.storyboard */; };
+		AE044E881CC56B7800920B15 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = AE044E871CC56B7800920B15 /* btn.wav */; };
+		AE044EB21CC5773B00920B15 /* 8bitOperatorPlus-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE044EB11CC5773B00920B15 /* 8bitOperatorPlus-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AE044E7B1CC56B3400920B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE044E7E1CC56B3400920B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE044E801CC56B3400920B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE044E871CC56B7800920B15 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		AE044EB11CC5773B00920B15 /* 8bitOperatorPlus-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "8bitOperatorPlus-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		AE044E731CC56B3400920B15 /* retro-calc */ = {
 			isa = PBXGroup;
 			children = (
+				AE044E861CC56B4A00920B15 /* Assets */,
 				AE044E741CC56B3400920B15 /* AppDelegate.swift */,
 				AE044E761CC56B3400920B15 /* ViewController.swift */,
 				AE044E781CC56B3400920B15 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				AE044E801CC56B3400920B15 /* Info.plist */,
 			);
 			path = "retro-calc";
+			sourceTree = "<group>";
+		};
+		AE044E861CC56B4A00920B15 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AE044EB11CC5773B00920B15 /* 8bitOperatorPlus-Regular.ttf */,
+				AE044E871CC56B7800920B15 /* btn.wav */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE044E7F1CC56B3400920B15 /* LaunchScreen.storyboard in Resources */,
+				AE044EB21CC5773B00920B15 /* 8bitOperatorPlus-Regular.ttf in Resources */,
 				AE044E7C1CC56B3400920B15 /* Assets.xcassets in Resources */,
 				AE044E7A1CC56B3400920B15 /* Main.storyboard in Resources */,
+				AE044E881CC56B7800920B15 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
